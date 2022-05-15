@@ -13,6 +13,10 @@ int kali(int c, int d){
     return e;
 }
 
+void tampilkan(int hasil2) {
+    cout << "hasil= " << hasil2 << endl;
+}
+
 int main () {
 
     int hasil, hasil2, input, e ,c, d;
@@ -25,8 +29,8 @@ int main () {
     cin >> c ;
     cout << "masukan angka kedua yang akan dikali= ";
     cin >> d ;
-    hasil2 = c * d;
-    cout << "hasil= " << hasil2 << endl;
+    hasil2 = kali(c,d);
+    tampilkan(hasil2);
 
     cin.get();
     return 0;
