@@ -1,0 +1,1 @@
+fungsi (&a); // untuk membuat pointer b memiliki alamat a

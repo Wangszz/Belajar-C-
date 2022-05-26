@@ -10,7 +10,7 @@ int main(){
     // }
 
     while(a <= 20){
-        cout << "asik";
+        cout << "asik ";
         cout << a << endl;
         a += 1; //untuk membatasi a, jadi jika lebih dari 20 maka akan berhenti
     }

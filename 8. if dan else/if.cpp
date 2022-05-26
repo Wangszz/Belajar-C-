@@ -8,7 +8,7 @@ int main () {
     cout << "masukan angka= ";
     cin >> a;
 
-    if ( a == 5) { // jika a sama dengan 2 maka true lalu menghasilkan hasil yang akan di tampilkan
+    if ( a == 5) { // jika a sama dengan 5 maka true lalu menghasilkan hasil yang akan di tampilkan
         cout << "nilai ini adalah lima" << endl;
     } else if ( a == 4) { 
         cout << "nilai ini empat" << endl;

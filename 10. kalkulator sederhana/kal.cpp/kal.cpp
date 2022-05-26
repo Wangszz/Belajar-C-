@@ -18,9 +18,6 @@ int main() {
     cin >> b;
 
 
-    cout << "\n\n===Hasil perhitungan===" << endl;
-    cout << a << aritmatika << b;
-
     if (aritmatika == '+' ) {
         hasil = a + b;
     }
@@ -37,6 +34,8 @@ int main() {
         hasil = a * b;
     }
 
+    cout << "\n\n===Hasil perhitungan===" << endl;
+    cout << a << aritmatika << b;
     cout << " = " << hasil << endl << endl;
 
 
